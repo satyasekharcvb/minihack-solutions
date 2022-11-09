@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>55.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__AppPage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__AppPage">
+            <event name="sliderchanged" label="Slider Changed" description="This event fires when the slider is changed">
+                <schema>
+                    {
+                        "type": "object",
+                        "properties": {
+                            "value": {
+                                "type": "integer",
+                                "title": "Counter Value",
+                                "description":"Slide to change the count "
+                            },
+                            "counter":{
+                                "type": "integer",
+                                "title": "Times Changed",
+                                "description":"Number of times the slider was changed "
+                            }
+                        }
+                    }
+                </schema>
+            </event>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
