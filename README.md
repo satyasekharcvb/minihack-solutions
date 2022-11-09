@@ -1,6 +1,6 @@
 # Minihacks Solutions
 
-## Modify standard component behaviors from custom components
+## HACK: Modify standard component behaviors from custom components
 
 ### Description
 While Lightning Message Service allows interaction only between custom components, Dynamic Interactions allows custom components to send events that standard components can respond to. Complete this challenge to understand how you can make your Lightning pages more dynamic and interactive.
